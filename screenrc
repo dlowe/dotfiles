@@ -1,0 +1,6 @@
+defescape ^Zz
+escape ^Zz
+defscrollback 100000
+scrollback 100000
+msgwait 0
+msgminwait 0
