@@ -1,0 +1,5 @@
+--type-set=coffee=.coffee
+--type-set=haml=.hamlc
+--type-add=css=.less
+--type-add=js=.dieter
+--type-set=mustache=.mustache
