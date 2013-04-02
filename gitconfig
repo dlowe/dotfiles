@@ -1,0 +1,8 @@
+[user]
+        email = j.david.lowe@gmail.com
+	name = J. David Lowe
+
+[alias]
+        tree = log --graph --color --pretty='format:%C(yellow)%h%Creset%C(cyan)%d%Creset %s %C(blue)(%cN)%Creset'
+[color]
+	ui = true
