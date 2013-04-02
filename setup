@@ -1,0 +1,14 @@
+#!/bin/bash -e
+
+DOTFILES_DIR=`dirname $0`
+DOTFILES_DIR=`(cd $DOTFILES_DIR && pwd)`
+
+for ORIGIN in `find $DOTFILES_DIR -depth 1 \! -name setup \! -name '.git*' \! -name README.md -print`; do
+        DESTINATION=${HOME}/.`basename ${ORIGIN}`
+        if [ -e ${DESTINATION} ]; then
+                echo "skipping ${DESTINATION}"
+        else
+                echo "linking ${DESTINATION}"
+                ln -s ${ORIGIN} ${DESTINATION}
+        fi
+done
