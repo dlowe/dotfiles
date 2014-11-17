@@ -1,3 +1,7 @@
 export CLICOLOR=true
 alias vi=~/bin/mvim
 alias vim=~/bin/mvim
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+. ~/.circle-bashrc
