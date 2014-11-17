@@ -25,4 +25,8 @@ set incsearch
 set hlsearch
 set mouse=a
 
+" clojure
+let g:clojure_fuzzy_indent = 1
+let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let']
+
 nmap <c-c><c-k> :Require<cr>
