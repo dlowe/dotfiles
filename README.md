@@ -4,5 +4,7 @@ To use:
 
 ```bash
 git clone https://github.com/dlowe/dotfiles.git ~/dotfiles
-~/dotfiles/setup
+cd dotfiles
+git submodule update --init
+./setup
 ```
