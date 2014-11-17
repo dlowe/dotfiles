@@ -24,6 +24,7 @@ set showmatch
 set incsearch
 set hlsearch
 set mouse=a
+set clipboard=unnamed
 
 " clojure
 let g:clojure_fuzzy_indent = 1

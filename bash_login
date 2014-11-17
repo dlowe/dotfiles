@@ -1,1 +1,3 @@
-CLICOLOR=true
+export CLICOLOR=true
+alias vi=~/bin/mvim
+alias vim=~/bin/mvim
