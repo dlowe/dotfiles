@@ -25,6 +25,7 @@ set incsearch
 set hlsearch
 set mouse=a
 set clipboard=unnamed
+set shiftwidth=3
 
 " clojure
 let g:clojure_fuzzy_indent = 1
