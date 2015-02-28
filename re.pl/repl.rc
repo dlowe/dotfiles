@@ -1,0 +1,1 @@
+load_plugin qw(History LexEnv DDS Packages Commands MultiLine::PPI Colors Completion CompletionDriver::INC CompletionDriver::LexEnv CompletionDriver::Keywords CompletionDriver::Methods);
