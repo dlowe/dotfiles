@@ -26,6 +26,9 @@ set hlsearch
 set mouse=a
 set clipboard=unnamed
 set shiftwidth=3
+set formatoptions-=cro
+
+autocmd FileType javascript setlocal shiftwidth=4
 
 " clojure
 let g:clojure_fuzzy_indent = 1

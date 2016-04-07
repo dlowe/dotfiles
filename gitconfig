@@ -1,3 +1,6 @@
+[core]
+        trustctime = false
+
 [user]
         email = j.david.lowe@gmail.com
 	name = J. David Lowe
