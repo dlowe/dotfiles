@@ -48,3 +48,6 @@ endfunction
 
 nmap <c-c>, :<c-u>call TestToplevel()<cr>
 nmap <c-c><c-k> :Require<cr>
+
+let g:ctrlp_map = '<c-/>'
+nmap <c-\> :CtrlPTag<cr>
