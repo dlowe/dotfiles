@@ -27,6 +27,9 @@ set mouse=a
 set clipboard=unnamed
 set shiftwidth=3
 set formatoptions-=cro
+set modeline
+set cursorline
+set lazyredraw
 
 autocmd FileType javascript setlocal shiftwidth=4
 
@@ -53,3 +56,8 @@ let g:ctrlp_map = '<c-/>'
 nmap <c-\> :CtrlPTag<cr>
 
 set laststatus=2
+
+augroup pencil
+  autocmd!
+  autocmd FileType text call pencil#init()
+augroup END

@@ -22,3 +22,9 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/bundle/vim-pico8-syntax"]
+	path = vim/bundle/vim-pico8-syntax
+	url = https://github.com/justinj/vim-pico8-syntax
+[submodule "vim/bundle/vim-pencil"]
+	path = vim/bundle/vim-pencil
+	url = https://github.com/reedes/vim-pencil

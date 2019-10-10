@@ -7,7 +7,13 @@ alias view="vim -R"
 
 export PS1="\h:\W \u\$ "
 export EDITOR=vim
+export TMPDIR=/tmp
 
 . ~/.git-completion.bash
 
 [ -e ~/.workrc ] && . ~/.workrc
+
+export PATH=$HOME/bin:$PATH
+
+export NVM_DIR="/Users/dlowe/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

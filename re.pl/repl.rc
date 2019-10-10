@@ -1,1 +1,24 @@
-load_plugin qw(History LexEnv DDS Packages Commands MultiLine::PPI Colors Completion CompletionDriver::INC CompletionDriver::LexEnv CompletionDriver::Keywords CompletionDriver::Methods);
+package main;
+
+require 'epic.pl';
+require 'test_epic.pl';
+
+require 'write.pl';
+require 'manage.pl';
+require 'writec_threadpool.pl';
+require 'eaqi.pl';
+require 'poller.pl';
+require 'discover-agent.pl';
+require 'epic/thirdparty.pl';
+require 'fridge.pl';
+require 'fridgec.pl';
+
+db_connect() and die;
+read_configuration();
+$cfg{'sqlite:rrd_fs:rw'} = 1;
+$cfg{'sqlite:stream:rw'} = 1;
+initialize_sqlite_rrd_fs();
+initialize_sqlite_stream_db();
+create_table_rrd_fs();
+
+$_REPL->load_plugin(qw(History LexEnv DDS Packages Commands MultiLine::PPI Colors Completion CompletionDriver::INC CompletionDriver::LexEnv CompletionDriver::Keywords CompletionDriver::Methods CompletionDriver::Globals FancyPrompt));
