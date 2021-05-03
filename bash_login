@@ -1,8 +1,4 @@
 export CLICOLOR=true
-if [ `uname` == "Darwin" ]; then
-    alias vi=~/bin/mvim
-    alias vim=~/bin/mvim
-fi
 alias view="vim -R"
 
 export PS1="\h:\W \u\$ "
@@ -13,7 +9,8 @@ export TMPDIR=/tmp
 
 [ -e ~/.workrc ] && . ~/.workrc
 
-export PATH=$HOME/bin:$PATH
+export PATH=/usr/local/bin:$HOME/bin:$PATH
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export NVM_DIR="/Users/dlowe/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
