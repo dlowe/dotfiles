@@ -3,19 +3,19 @@
 	url = git@github.com:guns/vim-clojure-static.git
 [submodule "vim/bundle/vim-fireplace"]
 	path = vim/bundle/vim-fireplace
-	url = git://github.com/tpope/vim-fireplace.git
+	url = git@github.com:tpope/vim-fireplace.git
 [submodule "vim/bundle/rainbow_parentheses.vim"]
 	path = vim/bundle/rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = git@github.com:airblade/vim-gitgutter.git
 [submodule "vim/bundle/vim-colors-solarized"]
 	path = vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = git@github.com:altercation/vim-colors-solarized.git
 [submodule "vim/bundle/vim-lastplace"]
 	path = vim/bundle/vim-lastplace
-	url = git://github.com/dietsche/vim-lastplace.git
+	url = git@github.com:dietsche/vim-lastplace.git
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
